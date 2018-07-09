@@ -13,3 +13,9 @@ name TEXT,
 age INTEGER
 );
 
+CREATE TABLE pledges (
+id INTEGER PRIMARY KEY,
+amount INTEGER,
+age INTEGER
+);
+
