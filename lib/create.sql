@@ -16,6 +16,7 @@ age INTEGER
 CREATE TABLE pledges (
 id INTEGER PRIMARY KEY,
 amount INTEGER,
-age INTEGER
+project_id INTEGER,
+user_id INTEGER
 );
 
